@@ -27,3 +27,7 @@ print(total)
 #slicing an array
 print(total[1:4])
 print(total[2:5])
+
+#multidimensional arrays
+eggs = [[1,2,3],[4,5,6],[7,8,9]]
+print(eggs)
