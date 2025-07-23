@@ -22,3 +22,7 @@ complex3.new_attribute = 56
 
 complex3.display_complex()
 print(complex3.real_part, complex3.imag_part, complex3.new_attribute)
+
+print(complex3)
+
+del complex3.real_part
