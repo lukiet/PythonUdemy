@@ -18,3 +18,17 @@ print(nested_tuple)
 # Accessing elements in a nested tuple
 print(nested_tuple[2])  # Accessing the third element (which is a tuple)
 print(nested_tuple[0][0])  # Accessing the first element of the nested tuple
+
+# Slicing a tuple
+letters = ('w','i','n','d','o','w')
+print(letters[1:4])
+print(letters[0:2])
+
+# Concatenating tuples
+tuple1 = (1, 2, 3)
+tuple2 = (4, 5, 6)
+
+tuple3 = tuple1 + tuple2
+
+print(tuple3)
+
