@@ -32,3 +32,12 @@ tuple3 = tuple1 + tuple2
 
 print(tuple3)
 
+# Tuple methods
+
+clothes =('shirt', 'pant', 'jacket', 'hat', 'shoes','shirt')
+print(clothes.count('shirt'))
+print(clothes.index('jacket'))
+
+# Iterating through a tuple
+for item in clothes:
+    print('clothe is : ', item)
