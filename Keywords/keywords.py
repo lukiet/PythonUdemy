@@ -28,3 +28,6 @@ def outer_function():
 
 outer_function()
 
+#with
+with open('example.txt', 'w') as my_file:
+    my_file.write('Hello, World!')
