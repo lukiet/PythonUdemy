@@ -41,3 +41,11 @@ print(clothes.index('jacket'))
 # Iterating through a tuple
 for item in clothes:
     print('clothe is : ', item)
+
+# Built-in functions
+exam_marks = (12, 65, 98, 45, 78, 90)
+
+print(max(exam_marks))
+print(min(exam_marks))
+print(len(exam_marks))
+print(sorted(exam_marks))
