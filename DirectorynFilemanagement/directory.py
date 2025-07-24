@@ -13,3 +13,6 @@ print(os.listdir())
 # Rename the directory 'Test' to 'Newt'
 os.rename('Test', 'Newt')
 print(os.listdir())
+
+# Remove the directory 'Newt'
+os.rmdir('Newt')
