@@ -26,3 +26,13 @@ print(languages)
 
 print(languages.pop(6))
 print(languages)
+
+# Checking if a key exists
+print(1 in languages)
+
+# Iterating through the dictionary
+for key in languages:
+    print(languages[key])
+
+print(len(languages))
+print(sorted(languages))
