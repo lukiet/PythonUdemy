@@ -6,6 +6,16 @@ print(type(num1))
 print(type(num2))
 print(type(num3))
 
+# Checking the type of numeric variables
 print(isinstance(num1, int))
 print(isinstance(num2, float))
 print(isinstance(num3, complex))
+
+# Numeric literals in Python
+print(0b1101)
+print(0o77)
+print(0x1A3F)
+
+# Converting between numeric types
+print(int(12.6))
+print(float(23))
