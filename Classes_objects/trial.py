@@ -1,24 +1,24 @@
 class Calculator:
 
 # Constructor methods
-    def __init__(self,num1=0, num2=0, operation=0):
-        if num1 is 0:
+    def __init__(self,num1=None, num2=None, operation=None):
+        if num1 is None:
             self.num1 = input("Enter first number: ")
-        if num2 is 0:
+        if num2 is None:
             self.num2 = input("Enter second number: ")
-        if operation is 0:
-            self.operation = input("Choose an operation (add, subtract, multiply, divide): ").lower()
+        if operation is None:
+            self.operation = input("Choose an operation (+, -, *, /): ").lower()
         self.num1 = num1
         self.num2 = num2
         self.operation = operation
 
-        if self.operation == 'add':
+        if self.operation == '+':
             self.result = float(self.num1) + float(self.num2)
-        elif self.operation == 'subtract':
+        elif self.operation == '-':
             self.result = float(self.num1) - float(self.num2)
-        elif self.operation == 'multiply':
+        elif self.operation == '*':
             self.result = float(self.num1) * float(self.num2)
-        elif self.operation == 'divide':
+        elif self.operation == '*':
             if float(self.num2) != 0:
                 self.result = float(self.num1) / float(self.num2)
             else:
@@ -27,10 +27,12 @@ class Calculator:
             self.result = "Error: Invalid operation"
 
 
-    def display(self):
+    def display(self, result):
         print("First number:", self.num1)
         print("Second number:", self.num2)
+        print("Operation:", self.operation)
+        print("Result:", self.result)
 
-adding = Calculator(2,4)
+adding = Calculator()
 
-adding.display()
+Calculator.display(adding, adding.result)
