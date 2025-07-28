@@ -20,3 +20,18 @@ print(0x1A3F)
 print(int(12.6))
 print(float(23))
 
+#decimals
+# import decimal
+# from decimal import Decimal
+
+# #fractions
+# import fractions
+# from fractions import Fraction
+
+#Math module
+import math
+print(math.pi)
+print(math.cos(10))
+print(math.log(10))
+print(math.sqrt(25))
+print(math.exp(34))
