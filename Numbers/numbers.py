@@ -33,5 +33,22 @@ import math
 print(math.pi)
 print(math.cos(10))
 print(math.log(10))
+print(math.log10(10))
 print(math.sqrt(25))
 print(math.exp(34))
+
+# Random module
+import random
+print(random.randrange(1,10))
+print(random.randrange(1,10))
+print(random.randrange(1,10))
+print(random.randrange(1,10))
+
+day =["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+print(random.choice(day))
+
+print(day)
+random.shuffle(day)
+print(day)
+
+print(random.random())
