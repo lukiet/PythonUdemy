@@ -8,7 +8,7 @@ class ComplexNumber:
     def display_complex(self):
         print("{0} + {1}j".format(self.real_part,self.imag_part))
 
-#creating a new object
+#creating a new object 
 complex1 = ComplexNumber(30,50)
 complex2 = ComplexNumber(23,90)
 
