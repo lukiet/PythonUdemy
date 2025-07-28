@@ -25,3 +25,6 @@ print(name.upper())
 print(name.lower())
 print(name.title())
 print(name.find('Mj'))
+
+print(name.capitalize())
+print(name.replace('Wetu', 'Wangu'))
