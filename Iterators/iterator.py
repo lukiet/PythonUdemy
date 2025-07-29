@@ -11,3 +11,23 @@ print(next(our_iter))
 print(our_iter.__next__())
 
 print(our_iter.__next__())
+
+# Creating a custom iterator class
+
+class PowOfTwo:
+    def __init__(self, max=0):
+        self.max = max
+        self.num = 0
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.num < self.max:
+            result = 2 ** self.num
+            self.num += 1
+            return result
+        else:
+            raise StopIteration
+
+
