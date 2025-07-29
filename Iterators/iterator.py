@@ -30,4 +30,11 @@ class PowOfTwo:
         else:
             raise StopIteration
 
+print(PowOfTwo.__doc__)
+a = PowOfTwo(9)
+i = iter(a)
+print(next(i))
+print(next(i))
+print(next(i))
+
 
