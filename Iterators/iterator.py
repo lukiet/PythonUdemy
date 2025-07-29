@@ -15,6 +15,7 @@ print(our_iter.__next__())
 # Creating a custom iterator class
 
 class PowOfTwo:
+    """An iterator that generates powers of two up to a specified maximum."""
     def __init__(self, max=0):
         self.max = max
         self.num = 0
