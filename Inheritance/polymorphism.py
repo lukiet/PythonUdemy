@@ -18,4 +18,11 @@ def flying_bird_test(bird):
     bird.canFly()
     bird.canSwim()
 
-#
+# Instantiation
+
+bird_chicken = MyChicken()
+bird_penguin = MyPenguin()
+
+# Testing polymorphism
+flying_bird_test(bird_chicken)
+flying_bird_test(bird_penguin)
