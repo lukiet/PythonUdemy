@@ -38,4 +38,23 @@ print(next(i))
 print(next(i))
 print(next(i))
 
+# Creating an infinite iterator
+class InfiniteIterator:
+    """An iterator that generates an infinite sequence of numbers."""
+    def __init__(self, start=0):
+        self.current = start
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        result = self.current
+        self.current += 1
+        return result
+
+print(InfiniteIterator.__doc__)
+infinite_iter = InfiniteIterator(9)
+print(next(infinite_iter))
+print(next(infinite_iter))
+print(next(infinite_iter))
 
