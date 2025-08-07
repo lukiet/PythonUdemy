@@ -1,14 +1,14 @@
 class MyBird:
-    def __init__(self, name):
-        self.name = name
+    def __init__(self):
+        print('System executing')
 
     def fly(self):
-        print(f"{self.name} is flying.")
+        print("The bird is flying.")
 
     def sing(self):
-        print(f"{self.name} is singing.")
+        print("The bird is singing.")
 
-class Parrot(MyBird):
+class myParrot(MyBird):
 
     def __init__(self):
         # Call super function
@@ -20,3 +20,10 @@ class Parrot(MyBird):
 
     def canRun(self):
         print("Parrots can run.")
+
+# Accessing child class attributes
+pg1 = myParrot()
+pg1.fly()
+pg1.sing()
+pg1.who_is_this()
+pg1.canRun()
