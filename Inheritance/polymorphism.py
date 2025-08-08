@@ -18,7 +18,7 @@ def flying_bird_test(bird):
     bird.canFly()
     bird.canSwim()
 
-# Instantiation
+# Instantiation on this
 
 bird_chicken = MyChicken()
 bird_penguin = MyPenguin()
